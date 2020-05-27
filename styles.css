@@ -45,3 +45,17 @@ th, td {
     border-collapse: collapse;
     padding: 10px;
 }
+
+.arrow a::before {
+    content: "\21d2  "
+}
+
+.arrow a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.arrow li {
+    margin: 10px;
+    margin-left: 20px;
+}
