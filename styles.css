@@ -26,6 +26,7 @@ embed {
     padding: 20px;
     border: 2px solid black;
     width: 75%;
+    height: 500px;
     margin: auto;
     display: block;
 }
