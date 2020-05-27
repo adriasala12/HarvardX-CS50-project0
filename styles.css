@@ -12,3 +12,15 @@ img {
 .nav-item {
   background-color: #E6E6E6;
 }
+
+h1 {
+    margin: 30px;
+}
+
+embed {
+    padding: 20px;
+    border: 2px solid black;
+    width: 75%;
+    margin: auto;
+    display: block;
+}
