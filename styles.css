@@ -1,4 +1,8 @@
-
+@media (max-width: 700px) {
+    body {
+        background-color: #ccf2ff;
+    }
+}
 
 .img-container {
   width: 100%;
