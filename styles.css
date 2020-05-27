@@ -24,3 +24,7 @@ embed {
     margin: auto;
     display: block;
 }
+
+.nav-item:hover {
+    background-color: #D6D6D6;
+}
