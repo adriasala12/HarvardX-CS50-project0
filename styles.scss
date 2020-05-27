@@ -1,0 +1,16 @@
+$color: #f0f2f5;
+
+%box {
+    border: 2px solid gray;
+    background-color: $color;
+}
+
+.box-square {
+    @extend %box;
+    border-radius: 25px;
+}
+
+.box-round {
+    @extend %box;
+    border-radius: 100px;
+}
