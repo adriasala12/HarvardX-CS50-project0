@@ -3,11 +3,23 @@ $color: #f0f2f5;
 %box {
     border: 2px solid gray;
     background-color: $color;
+    margin: auto;
+    width: 60%;
+
+    p {
+        margin: auto;
+        padding: 20px;
+
+        a {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
 }
 
 .box-square {
     @extend %box;
-    border-radius: 25px;
+    border-radius: 2px;
 }
 
 .box-round {
